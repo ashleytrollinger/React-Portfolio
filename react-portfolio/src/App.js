@@ -5,8 +5,8 @@ import React from "react";
 import Header from "./components/Header";
 //Nav is part of the Header Component
 import Portfolio from "./components/Portfolio";
+import About from "./components/About";
 import Contact from "./components/Contact";
-import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 
 function App() {
@@ -17,9 +17,8 @@ function App() {
         <About></About>
         <Portfolio></Portfolio>
         <Contact></Contact>
-        <Resume></Resume>
       </main>
-      <footer></footer>
+      <Footer></Footer>
     </div>
   )
 }
