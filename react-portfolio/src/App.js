@@ -1,5 +1,5 @@
 import './App.css';
-import React from "react";
+import React, {useState} from "react";
 
 //Importing all the React components
 import Header from "./components/Header";
@@ -7,16 +7,32 @@ import Header from "./components/Header";
 import Portfolio from "./components/Portfolio";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 
 function App() {
+  const [currentTab, setCurrentTab] = useState("about");
+
+  const renderTab = () => {
+    switch (currentTab) {
+      case "about":
+        return <About></About>;
+      case "portfolio":
+        return <Portfolio></Portfolio>;
+      case "contact":
+        return <Contact></Contact>;
+      case "resume":
+        return <Resume></Resume>;
+      default:
+        return null;
+    }
+  }
+
   return (
     <div>
-      <Header></Header>
+      <Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
       <main>
-        <About></About>
-        <Portfolio></Portfolio>
-        <Contact></Contact>
+        {renderTab()}
       </main>
       <Footer></Footer>
     </div>
