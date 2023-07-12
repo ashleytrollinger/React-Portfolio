@@ -13,7 +13,7 @@ function Portfolio() {
         {
             name: "Jersey Shore Quiz",
             description: "Test your knowledge on the MTV hit show Jersey Shore.",
-            image: "Jesry-Shore.png",
+            image: "Jersey-Shore.png",
             live: null,
             github: "https://github.com/ashleytrollinger/Jersey-Shore-Quiz-Game"
         }, {
@@ -61,10 +61,10 @@ function Portfolio() {
                         <Project projects={projects[0]}></Project>
                     </li>
                     <li className="padding">
-                        <Project projects={projects[0]}></Project>
+                        <Project projects={projects[1]}></Project>
                     </li>
                     <li className="padding">
-                        <Project projects={projects[0]}></Project>
+                        <Project projects={projects[2]}></Project>
                     </li>
                     {/* For the Last 3 Projects
                     <li className="padding">
