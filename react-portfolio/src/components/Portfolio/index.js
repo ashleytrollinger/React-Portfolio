@@ -6,23 +6,24 @@ function Portfolio() {
         {
             name: "Employee Tracker",
             description: "Track different departments, employees, roles and salaries all on one database.",
-            image: "Employee-Tracker.PNG",
+            image: "Employee-Tracker.png",
             live: null,
             github: "https://github.com/ashleytrollinger/Employee-Tracker"
         },
         {
             name: "Jersey Shore Quiz",
             description: "Test your knowledge on the MTV hit show Jersey Shore.",
-            image: "Jesry-Shore.PNG",
+            image: "Jesry-Shore.png",
             live: null,
             github: "https://github.com/ashleytrollinger/Jersey-Shore-Quiz-Game"
         }, {
             name: "Find My Musician",
             description: "Networking site for aspiring musicians or just people who enjoy making music.",
-            image: "Find-My-Musician.PNG",
+            image: "Find-My-Musician.png",
             live: "https://find-my-musician.herokuapp.com/",
             github: "https://github.com/ashleytrollinger/FindMyMusician"
-        },
+        }
+    ]
     /* For the last 3 projects
     {
         name: "",
@@ -45,9 +46,9 @@ function Portfolio() {
         live:"",
         github:""
         },
-        */ 
-}
-    ];
+        */
+
+
 
     return (
         <section>
