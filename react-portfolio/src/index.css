@@ -1,4 +1,5 @@
 body {
+  background-color: #e9f5db;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -13,6 +14,7 @@ code {
 }
 
 main {
+  background-color: #cfe1b9;
   margin: 0 auto;
   max-width: 90%;
   padding: 50px 30px;
@@ -48,8 +50,13 @@ h6 {
   line-height: 1.25;
 }
 
+header h1 {
+  font-size: 3.3rem;
+}
+
 h1 {
   font-size: 2.25rem;
+  color: #718355;
 }
 
 h2 {
@@ -77,11 +84,68 @@ p {
   margin-top: 0;
 }
 
+a {
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 2px 4px;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
   text-align: center;
+}
+
+button {
+  border: 0;
+  border-radius: .5rem;
+  color: #FFB703;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 15px;
+  font-size: 1rem;
+
+}
+
+button:hover {
+  opacity: .8;
+}
+
+img {
+  max-width: 100%;
+}
+
+span[role="img"] {
+  cursor: default;
+}
+
+form {
+  width: 40%;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid;
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+  width: 600px;
+}
+
+input:focus {
+  border: 1px solid;
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
 .flex-row {
@@ -107,12 +171,16 @@ header {
   margin-left: var(--spacing-two);
 }
 
+ul {
+  list-style-type: none;
+}
+
 @media screen and (max-width: 980px) {}
 
 @media screen and (max-width: 817px) {
   header div {
     position: relative;
-    width: 110%;
+    width: 98%;
   }
 
   header div h2 {
@@ -124,6 +192,7 @@ header {
   h2 {
     font-size: 1.5rem;
   }
+
 
   nav ul li span {
     font-size: 0.75em;
@@ -194,6 +263,7 @@ header {
   padding-bottom: 2rem;
 }
 
+/* Styling for the Project Cards */
 .card {
   width: 25%;
   text-align: center;
@@ -206,7 +276,8 @@ header {
 
 .card-text {
   font-size: 0.75rem;
-  height: 10rem;
+  height: 3rem;
+
 }
 
 .card-image {
@@ -221,7 +292,7 @@ header {
 textarea {
   width: 600px;
   height: 120px;
-  border: 3px solid #cccccc;
+  border: 1px solid black;
   padding: 5px;
 }
 
@@ -234,4 +305,17 @@ textarea {
 
 span {
   padding-right: 2rem;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
 }
