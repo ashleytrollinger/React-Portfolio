@@ -26,14 +26,14 @@ function Portfolio() {
     ]
     /* For the last 3 projects
     {
-        name: "",
-        description: "",
-        image:"",
-        live:"",
-        github:""
+        name: "Weather Dashboard",
+        description: "Works with OpenWeatherMap to create a 7 day weather forcaster",
+        image:"Weather-Dashboard.png",
+        live:null,
+        github:"https://github.com/ashleytrollinger/Weather-Dashboard"
         },
         {
-        name: "",
+        name: "Password Generator",
         description: "",
         image:"",
         live:"",
