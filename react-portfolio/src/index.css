@@ -108,7 +108,8 @@ header {
 button {
   border: 0;
   border-radius: .5rem;
-  color: #FFB703;
+  border-color: black;
+  color: #718355;
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
@@ -169,6 +170,11 @@ input:focus {
 .mx-2 {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
+
+}
+
+.mx-2:hover {
+  color: #87986a;
 }
 
 ul {
@@ -318,4 +324,15 @@ span {
 
 .flex-end {
   justify-content: flex-end;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.logo:hover {
+  opacity: 0.5;
 }
