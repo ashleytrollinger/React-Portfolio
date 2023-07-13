@@ -30,6 +30,19 @@ function Footer() {
                     ></img>
                 </a>
             </div>
+            <div>
+                <a
+                    href="https://www.instagram.com/ashaleetalotta/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        src={require("../../assets/logos/instagram-icon.png")}
+                        alt="Instagram"
+                        className="logo"
+                    ></img>
+                </a>
+            </div>
         </footer>
     )
 }

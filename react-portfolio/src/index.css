@@ -337,8 +337,16 @@ span {
 .logo:hover {
   opacity: 0.5;
 }
+
 .footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+#contact-form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  
 }
