@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.f09f8919.css",
-    "main.js": "/static/js/main.d763fa81.js",
-    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
-    "static/media/Employee-Tracker.png": "/static/media/Employee-Tracker.a61299ae5bd400dafda6.png",
-    "static/media/Weather-Dashboard.png": "/static/media/Weather-Dashboard.e2ce895cbfc4160fc9ec.png",
-    "static/media/Find-My-Musician.png": "/static/media/Find-My-Musician.5714cd5a5133bc4524be.png",
-    "static/media/Jersey-Shore.png": "/static/media/Jersey-Shore.2f0658aae56b63ea9955.png",
-    "static/media/Password-Generator.png": "/static/media/Password-Generator.4788fa0454c014886391.png",
-    "static/media/Resume.pdf": "/static/media/Resume.c4b6dcbce5086c8dfb2b.pdf",
-    "static/media/Work-In-Progress.png": "/static/media/Work-In-Progress.c090d4ff601c67d47301.png",
-    "static/media/instagram-icon.png": "/static/media/instagram-icon.0e3f8cabc21c4f8f0f66.png",
-    "index.html": "/index.html",
-    "main.f09f8919.css.map": "/static/css/main.f09f8919.css.map",
-    "main.d763fa81.js.map": "/static/js/main.d763fa81.js.map",
-    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/react-portfolio/static/css/main.f09f8919.css",
+    "main.js": "/react-portfolio/static/js/main.142fa820.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Employee-Tracker.png": "/react-portfolio/static/media/Employee-Tracker.a61299ae5bd400dafda6.png",
+    "static/media/Weather-Dashboard.png": "/react-portfolio/static/media/Weather-Dashboard.e2ce895cbfc4160fc9ec.png",
+    "static/media/Find-My-Musician.png": "/react-portfolio/static/media/Find-My-Musician.5714cd5a5133bc4524be.png",
+    "static/media/Jersey-Shore.png": "/react-portfolio/static/media/Jersey-Shore.2f0658aae56b63ea9955.png",
+    "static/media/Password-Generator.png": "/react-portfolio/static/media/Password-Generator.4788fa0454c014886391.png",
+    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.c4b6dcbce5086c8dfb2b.pdf",
+    "static/media/Work-In-Progress.png": "/react-portfolio/static/media/Work-In-Progress.c090d4ff601c67d47301.png",
+    "static/media/instagram-icon.png": "/react-portfolio/static/media/instagram-icon.0e3f8cabc21c4f8f0f66.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.f09f8919.css.map": "/react-portfolio/static/css/main.f09f8919.css.map",
+    "main.142fa820.js.map": "/react-portfolio/static/js/main.142fa820.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f09f8919.css",
-    "static/js/main.d763fa81.js"
+    "static/js/main.142fa820.js"
   ]
 }
