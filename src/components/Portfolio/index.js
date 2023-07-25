@@ -40,11 +40,11 @@ function Portfolio() {
             github: "https://github.com/ashleytrollinger/JavaScript-Password-Generator"
         },
         {
-            name: "Coming End of July",
+            name: "JamSphere",
             description: "Social media platform that combines the music focus of Spotify with the social aspects of Instagram",
-            image: "Work-In-Progress.png",
-            live: null,
-            github: null
+            image: "JamSphere.png",
+            live: "https://jamsphere-ad4807320222.herokuapp.com/",
+            github: "https://github.com/QDatcher/JamSphere",
         },
 
     ]
